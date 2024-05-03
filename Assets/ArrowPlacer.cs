@@ -19,7 +19,7 @@ public class ArrowPlacer : MonoBehaviour
         PlaceArrow();
     }
 
-    void PlaceArrow()
+    public void PlaceArrow()
     {
         if (startPoint != null && endPoint != null && arrowPrefab != null)
         {
